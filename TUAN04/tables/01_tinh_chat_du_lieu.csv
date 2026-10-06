@@ -1,0 +1,80 @@
+﻿feature,dtype,loai_du_lieu,thang_do,so_gia_tri_khac_nhau,vi_du
+MSSubClass,int64,Numeric - roi rac (discrete),Interval/Ratio,15,60
+MSZoning,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),5,RL
+LotFrontage,float64,Numeric - lien tuc (continuous),Interval/Ratio,110,65.0
+LotArea,int64,Numeric - lien tuc (continuous),Interval/Ratio,1073,8450
+Street,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),2,Pave
+Alley,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),2,Grvl
+LotShape,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),4,Reg
+LandContour,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),4,Lvl
+Utilities,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),2,AllPub
+LotConfig,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),5,Inside
+LandSlope,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),3,Gtl
+Neighborhood,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),25,CollgCr
+Condition1,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),9,Norm
+Condition2,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),8,Norm
+BldgType,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),5,1Fam
+HouseStyle,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),8,2Story
+OverallQual,int64,Numeric - roi rac (discrete),Interval/Ratio,10,7
+OverallCond,int64,Numeric - roi rac (discrete),Interval/Ratio,9,5
+YearBuilt,int64,Numeric - lien tuc (continuous),Interval/Ratio,112,2003
+YearRemodAdd,int64,Numeric - lien tuc (continuous),Interval/Ratio,61,2003
+RoofStyle,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),6,Gable
+RoofMatl,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),8,CompShg
+Exterior1st,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),15,VinylSd
+Exterior2nd,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),16,VinylSd
+MasVnrType,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),3,BrkFace
+MasVnrArea,float64,Numeric - lien tuc (continuous),Interval/Ratio,327,196.0
+ExterQual,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),4,Gd
+ExterCond,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),5,TA
+Foundation,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),6,PConc
+BsmtQual,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),4,Gd
+BsmtCond,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),4,TA
+BsmtExposure,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),4,No
+BsmtFinType1,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),6,GLQ
+BsmtFinSF1,int64,Numeric - lien tuc (continuous),Interval/Ratio,637,706
+BsmtFinType2,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),6,Unf
+BsmtFinSF2,int64,Numeric - lien tuc (continuous),Interval/Ratio,144,0
+BsmtUnfSF,int64,Numeric - lien tuc (continuous),Interval/Ratio,780,150
+TotalBsmtSF,int64,Numeric - lien tuc (continuous),Interval/Ratio,721,856
+Heating,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),6,GasA
+HeatingQC,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),5,Ex
+CentralAir,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),2,Y
+Electrical,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),5,SBrkr
+1stFlrSF,int64,Numeric - lien tuc (continuous),Interval/Ratio,753,856
+2ndFlrSF,int64,Numeric - lien tuc (continuous),Interval/Ratio,417,854
+LowQualFinSF,int64,Numeric - lien tuc (continuous),Interval/Ratio,24,0
+GrLivArea,int64,Numeric - lien tuc (continuous),Interval/Ratio,861,1710
+BsmtFullBath,int64,Numeric - roi rac (discrete),Interval/Ratio,4,1
+BsmtHalfBath,int64,Numeric - roi rac (discrete),Interval/Ratio,3,0
+FullBath,int64,Numeric - roi rac (discrete),Interval/Ratio,4,2
+HalfBath,int64,Numeric - roi rac (discrete),Interval/Ratio,3,1
+BedroomAbvGr,int64,Numeric - roi rac (discrete),Interval/Ratio,8,3
+KitchenAbvGr,int64,Numeric - roi rac (discrete),Interval/Ratio,4,1
+KitchenQual,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),4,Gd
+TotRmsAbvGrd,int64,Numeric - roi rac (discrete),Interval/Ratio,12,8
+Functional,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),7,Typ
+Fireplaces,int64,Numeric - roi rac (discrete),Interval/Ratio,4,0
+FireplaceQu,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),5,TA
+GarageType,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),6,Attchd
+GarageYrBlt,float64,Numeric - lien tuc (continuous),Interval/Ratio,97,2003.0
+GarageFinish,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),3,RFn
+GarageCars,int64,Numeric - roi rac (discrete),Interval/Ratio,5,2
+GarageArea,int64,Numeric - lien tuc (continuous),Interval/Ratio,441,548
+GarageQual,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),5,TA
+GarageCond,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),5,TA
+PavedDrive,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),3,Y
+WoodDeckSF,int64,Numeric - lien tuc (continuous),Interval/Ratio,274,0
+OpenPorchSF,int64,Numeric - lien tuc (continuous),Interval/Ratio,202,61
+EnclosedPorch,int64,Numeric - lien tuc (continuous),Interval/Ratio,120,0
+3SsnPorch,int64,Numeric - roi rac (discrete),Interval/Ratio,20,0
+ScreenPorch,int64,Numeric - lien tuc (continuous),Interval/Ratio,76,0
+PoolArea,int64,Numeric - roi rac (discrete),Interval/Ratio,8,0
+PoolQC,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),3,Ex
+Fence,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),4,MnPrv
+MiscFeature,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),4,Shed
+MiscVal,int64,Numeric - lien tuc (continuous),Interval/Ratio,21,0
+MoSold,int64,Numeric - roi rac (discrete),Interval/Ratio,12,2
+YrSold,int64,Numeric - roi rac (discrete),Interval/Ratio,5,2008
+SaleType,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),9,WD
+SaleCondition,str,Categorical,Nominal/Ordinal (can xem y nghia cot de phan biet),6,Normal

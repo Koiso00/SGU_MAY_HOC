@@ -1,0 +1,5 @@
+﻿,,pearson_r
+GarageCars,GarageArea,0.882475414281462
+YearBuilt,GarageYrBlt,0.8256674841743408
+GrLivArea,TotRmsAbvGrd,0.8254893743088425
+TotalBsmtSF,1stFlrSF,0.8195299750050339
